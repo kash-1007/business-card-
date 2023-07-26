@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ffff3f;
+    color: #2b2839;
+   
+    border-radius: 15px 0 15px 0;
+    box-shadow: 5px 7px #d4d700;
+      transition-duration: .5s;
+  
+}
+.card:hover{
+    background-color: eeef20;
+    border-radius: 0px 30px 0 30px;
+    width:200px;
+    display: block;
+    cursor: pointer;
+    transition-duration: .5s;
+
+    
+ 
+}
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+
